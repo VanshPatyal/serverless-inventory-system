@@ -1,0 +1,8 @@
+Screenshots will be added after testing is complete.
+
+This folder will contain:
+- s3-bucket.png (S3 bucket with uploaded CSV)
+- lambda-function.png (Lambda configuration)
+- dynamodb-table.png (Inventory data in DynamoDB)
+- sns-email.png (Low stock alert email)
+- cloudwatch-logs.png (Lambda execution logs)
