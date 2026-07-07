@@ -8,7 +8,7 @@ dynamodb = boto3.resource('dynamodb')
 sns = boto3.client('sns')
 
 INVENTORY_TABLE = os.environ.get('INVENTORY_TABLE', 'inventory')
-SNS_TOPIC_ARN = os.environ.get('SNS_TOPIC_ARN')
+SNS_TOPIC_ARN = os.environ.get('SNS_TOPIC_ARN') 
 
 def lambda_handler(event, context):
     """
