@@ -12,7 +12,7 @@ SNS_TOPIC_ARN = os.environ.get('SNS_TOPIC_ARN')
 
 def lambda_handler(event, context):
     """
-    Process CSV file uploaded to S3 and update inventory in DynamoDB
+    Process CSV file uploaded to S3 and update inventory in DynamoDB 
     """
     print(f"Received event: {json.dumps(event)}")
     
